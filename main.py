@@ -1,8 +1,8 @@
 #! /usr/bin/env python3
 #coding: utf-8
 
-from src.Common.Enums.SearchEngines import SearchEngines
-from src.Engine.SonarEngine import SonarEngine
+from Sonar.Common.Enums.SearchEngines import SearchEngines
+from Sonar.Engine.SonarEngine import SonarEngine
 
 query = "Shopify"
 search_engines=[SearchEngines.Google]

@@ -8,6 +8,8 @@ beautifulsoup4 = "*"
 requests = "*"
 
 [dev-packages]
+wheel = "*"
+twine = "*"
 
 [requires]
 python_version = "3.9"

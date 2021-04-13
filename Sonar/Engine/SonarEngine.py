@@ -1,6 +1,6 @@
-from src.Discriminators.ShopifyDiscriminator import ShopifyDiscriminator
-from src.SearchEnginesProvider import GoogleEngine
-from src.Common.Enums import SearchEngines, WebsiteType
+from Sonar.Discriminators.ShopifyDiscriminator import ShopifyDiscriminator
+from Sonar.SearchEnginesProvider import GoogleEngine
+from Sonar.Common.Enums import SearchEngines, WebsiteType
 
 from typing import Dict, List
 
