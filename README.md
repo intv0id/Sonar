@@ -1,10 +1,10 @@
-📡 Sonar
+📡 WebSonar
 ===
 
 SEO tool for e-commerce
 ---
 
-Sonar identifies websites providers within the first results of popular search engines.
+WebSonar identifies websites providers within the first results of popular search engines.
 
 ---
 

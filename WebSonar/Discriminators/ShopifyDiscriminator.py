@@ -1,5 +1,5 @@
 from .BaseDiscriminator import BaseDiscriminator
-from Sonar.Common import Consts
+from WebSonar.Common import Consts
 
 from bs4 import BeautifulSoup
 import requests

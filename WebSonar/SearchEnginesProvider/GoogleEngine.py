@@ -1,6 +1,6 @@
-from Sonar.SearchEnginesProvider import BaseSearchEngine
-from Sonar.Common import Consts
-from Sonar.Common.Exceptions import RetrievingSearchResultsException
+from WebSonar.SearchEnginesProvider import BaseSearchEngine
+from WebSonar.Common import Consts
+from WebSonar.Common.Exceptions import RetrievingSearchResultsException
 from typing import List
 from bs4 import BeautifulSoup
 

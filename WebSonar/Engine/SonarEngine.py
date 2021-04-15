@@ -1,10 +1,10 @@
-from Sonar.Discriminators.ShopifyDiscriminator import ShopifyDiscriminator
-from Sonar.SearchEnginesProvider import GoogleEngine
-from Sonar.Common.Enums import SearchEngines, WebsiteType
+from WebSonar.Discriminators.ShopifyDiscriminator import ShopifyDiscriminator
+from WebSonar.SearchEnginesProvider import GoogleEngine
+from WebSonar.Common.Enums import SearchEngines, WebsiteType
 
 from typing import Dict, List
 
-class SonarEngine():
+class WebSonarEngine():
     def __init__(self):
         self._shopifyDiscriminator = ShopifyDiscriminator()
         self._googleEngine = GoogleEngine()

@@ -4,10 +4,10 @@ from setuptools import setup, find_packages
 HERE = pathlib.Path(__file__).parent
 
 VERSION = '0.1.0'
-PACKAGE_NAME = 'Sonar'
+PACKAGE_NAME = 'WebSonar'
 AUTHOR = 'Clément Trassoudaine'
 AUTHOR_EMAIL = 'clement.trassoudaine@outlook.com'
-URL = 'https://github.com/intv0id/Sonar'
+URL = 'https://github.com/intv0id/WebSonar'
 
 LICENSE = 'Apache License 2.0'
 DESCRIPTION = 'Describe your package in one sentence'
