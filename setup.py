@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 PACKAGE_NAME = 'WebSonar'
 AUTHOR = 'Clément Trassoudaine'
 AUTHOR_EMAIL = 'clement.trassoudaine@outlook.com'
