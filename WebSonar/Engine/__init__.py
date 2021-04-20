@@ -1,1 +1,1 @@
-from .WebSonarEngine import WebSonarEngine
+from .SonarEngine import SonarEngine

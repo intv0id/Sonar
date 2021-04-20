@@ -4,7 +4,7 @@ from WebSonar.Common.Enums import SearchEngines, WebsiteType
 
 from typing import Dict, List
 
-class WebSonarEngine():
+class SonarEngine():
     def __init__(self):
         self._shopifyDiscriminator = ShopifyDiscriminator()
         self._googleEngine = GoogleEngine()

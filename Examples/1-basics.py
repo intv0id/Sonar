@@ -2,13 +2,13 @@
 #coding: utf-8
 
 from WebSonar.Common.Enums.SearchEngines import SearchEngines
-from WebSonar.Engine.WebSonarEngine import WebSonarEngine
+from WebSonar.Engine.SonarEngine import SonarEngine
 
 query = "Shopify"
 search_engines=[SearchEngines.Google]
 number = 10
 
-WebSonar = WebSonarEngine()
+WebSonar = SonarEngine()
 WebSonar_results = WebSonar.IdentifySitesFromSearchQuery(
     query=query, 
     search_engines=[SearchEngines.Google],
